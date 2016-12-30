@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:13px;
+	color:#eee;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(background.jpg);
+	font-family:Corbel,'Myriad Pro',Arial, Helvetica, sans-serif;
+}
+
+a { color: #eee; text-decoration: none;}
+a:hover { text-decoration: underline; }
+
+#page{
+	width:800px;
+	margin:20px auto;
+}
+
+.block{
+    background-color: #7b8b98;
+	margin-bottom:25px;
+	padding:30px;
+}
+
+.block_main {
+    background-color: #7b8b98;
+    text-shadow: 1px 1px 0 black;
+    padding: 30px;
+}
+
+.block_main p {
+    margin: 20px 0 20px 0;
+}
+
+h1{
+	font-size:35px;
+	font-weight:normal;
+	position:relative;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.rounded{
+	-moz-border-radius:12px;
+    -webkit-border-radius:12px;
+	border-radius:12px;
+}
+
+.block_footer {
+    float: right;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul { list-style-type: none; }
+ul li { padding: 10px 0 10px 0; border-bottom: 1px solid #eee; font-size: 15px; }
+.name { font-weight: bold; width: 100px; display: inline-block;}
+.date { color: #ccc; font-family: Arial; font-size: 9px; margin-right: 10px; }
+.message {
+	font-style: italic;
+	margin-left: 0px;
+	width: 460px;
+	min-height: 120px;
+}
+input {
+	margin: 10px 5px 10px 5px;
+}
+input#submit {
+	position: absolute;
+	padding: 28px 91px;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #30698F;
+  -webkit-box-shadow: 0px 9px 0px #3a7faa, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 9px 0px #3a7faa, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  -ms-box-shadow: 0px 9px 0px #3a7faa, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 9px 0px #3a7faa, 0px 9px 25px rgba(0, 0, 0, 0.7);
+  color: #efe;
+  background-color: #4f6f8c;
+  border-radius: 8px;
+  border: none;
+  outline: 0 none;
+  overflow: hidden;
+  cursor: pointer;
+}
+input[type="submit"]:active {
+  box-shadow: 0px 3px 0px #3a7faa, 0px 3px 6px rgba(0, 0, 0, 0.9);
+}
+.message-head {
+	display: block;
+}
+span.email {
+	float: right;
+}
+.control {
+	display: block;;
+}
